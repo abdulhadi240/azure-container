@@ -8,4 +8,4 @@ def index():
 
 @app.get('/about')
 def index():
-    return {'message': 'Hello world this is azure containers'}  
+    return {'message': 'this is about page'}  
