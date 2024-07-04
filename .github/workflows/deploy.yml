@@ -40,8 +40,4 @@ jobs:
             --image ${{ secrets.DOCKER_HUB_USERNAME }}/myapp:latest \
             --target-port 8000 \
             --ingress 'external' \
-<<<<<<< HEAD
             --env-vars 'APP_SETTING=my-setting'
-=======
-            --env-vars 'APP_SETTING=my-setting'
->>>>>>> 5d3d382feee582f1652a13abe1434f26061c126c
